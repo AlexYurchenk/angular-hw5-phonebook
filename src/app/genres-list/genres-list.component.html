@@ -1,0 +1,5 @@
+<ul class="list">
+  <li class="item" *ngFor="let g of genres; let i = index">
+    {{ i === 0 ? "" : "," }}{{ g?.name }}
+  </li>
+</ul>

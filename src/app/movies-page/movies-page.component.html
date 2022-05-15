@@ -1,0 +1,7 @@
+<form (submit)="onSubmit($event)" class="form">
+  <input [value]="query" (change)="onChange($event)" type="text" />
+  <button routerLink="/movies" [queryParams]="{query}" type="submit">
+    Search
+  </button>
+</form>
+<app-movie-list [movies]="movies"></app-movie-list>

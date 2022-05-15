@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+.logo-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.16em;
+
+  color: black;
+
+  margin-left: 5px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}

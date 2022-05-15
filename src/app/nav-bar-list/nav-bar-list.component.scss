@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+  padding: 0%;
+
+  & > app-nav-bar-list-item {
+    margin-right: 25px;
+  }
+  & > app-nav-bar-list-item:last-child {
+    margin-right: 0px;
+  }
+}

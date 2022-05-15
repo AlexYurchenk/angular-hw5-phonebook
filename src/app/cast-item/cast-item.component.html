@@ -1,0 +1,8 @@
+<div *ngIf="person.profile_path">
+  <img
+    src="https://image.tmdb.org/t/p/w154/{{ person.profile_path }}"
+    alt="{{ person.character }}"
+  />
+  <h4>{{ person.character }}</h4>
+  <h4>{{ person.original_name }}</h4>
+</div>

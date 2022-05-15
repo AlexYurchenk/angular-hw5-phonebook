@@ -1,0 +1,7 @@
+<ul class="list">
+  <app-nav-bar-list-item
+    *ngFor="let v of navBarItems; let i = index"
+    [value]="v"
+    [text]="navBarItemsText[i]"
+  ></app-nav-bar-list-item>
+</ul>

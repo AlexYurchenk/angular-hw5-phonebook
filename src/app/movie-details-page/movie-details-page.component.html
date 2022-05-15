@@ -1,0 +1,15 @@
+<div *ngIf="movie">
+  <button (click)="onGoBackClick()">Go back</button>
+  <img src="https://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}" alt="" />
+  <h2>{{ movie.title }}</h2>
+  <h3>{{ movie.vote_average }}</h3>
+  <h2>Overview</h2>
+  <p>{{ movie.overview }}</p>
+  <h3>Genres</h3>
+  <app-genres-list [genres]="movie.genres"></app-genres-list>
+  <ul>
+    <li [routerLink]="['cast']">Cast</li>
+    <li [routerLink]="['reviews']">Review</li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,24 @@
+<svg   class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="arrow-next">
+    <path d="M3.33335 8H12.6667" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.00002 12.6667L12.6667 8.00004L8.00002 3.33337" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="arrow-prev">
+    <path d="M12.6667 8H3.33334" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.00001 12.6667L3.33334 8.00004L8.00001 3.33337" stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="logo">
+    <path d="M19.82 2H4.18C2.97602 2 2 2.97602 2 4.18V19.82C2 21.024 2.97602 22 4.18 22H19.82C21.024 22 22 21.024 22 19.82V4.18C22 2.97602 21.024 2 19.82 2Z" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 2V22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 2V22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M2 12H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M2 7H7" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M2 17H7" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 17H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 7H22" stroke="#818181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" id="search">
+    <path d="M5.5 9.5C7.70914 9.5 9.5 7.70914 9.5 5.5C9.5 3.29086 7.70914 1.5 5.5 1.5C3.29086 1.5 1.5 3.29086 1.5 5.5C1.5 7.70914 3.29086 9.5 5.5 9.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.5 10.5002L8.32501 8.3252" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

@@ -1,0 +1,20 @@
+<a
+  [routerLink]="['movies', movie.id]"
+  (click)="onMovieClick($event)"
+  id="{{ movie.id }}"
+  class="card"
+>
+  <img
+    src="https://image.tmdb.org/t/p/w300/{{ movie.poster_path }}"
+    alt="{{ movie.title }}"
+  />
+  <div>
+    <h3 class="title">{{ movie.title }}</h3>
+    <div *ngIf="movie.genres" class="genres-wrapper">
+      <app-genres-list [genres]="movie.genres"></app-genres-list>
+      <p *ngIf="movie.release_date" class="date">
+        | {{ movie.release_date | date: "YYYY" }}
+      </p>
+    </div>
+  </div>
+</a>

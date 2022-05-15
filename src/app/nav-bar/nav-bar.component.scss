@@ -1,0 +1,11 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+  }
+}

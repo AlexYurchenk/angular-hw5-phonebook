@@ -1,0 +1,5 @@
+<ul *ngIf="cast">
+  <li id="{{ c.id }}" *ngFor="let c of cast">
+    <app-cast-item [person]="c"></app-cast-item>
+  </li>
+</ul>
